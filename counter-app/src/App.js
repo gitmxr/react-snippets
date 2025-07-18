@@ -12,8 +12,8 @@ const AddValue = () => {
 }
 const RemoveValue = () => {
   if(counter > 0) {
-   setCounter(counter-1);
-  } else {
+   setCounter(counter-1);w
+  } else {x
     alert("Counter cannot be less than 0");
   }
 }
