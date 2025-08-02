@@ -10,7 +10,7 @@ function App() {
   const [To, setTo] = useState("eur");
   const [convertedAmount, setConvertedAmount] = useState(0);
 
-  const currencyInfo = useCurrencyInfo(From); // API needs lowercase
+  const currencyInfo = useCurrencyInfo(From); 
   const options = currencyInfo ? Object.keys(currencyInfo) : [];
   if (options.length === 0) {
     return <div className="text-white">Loading currencies...</div>;
@@ -30,7 +30,7 @@ function App() {
     if (rate) {
       setConvertedAmount(amount * rate);
     } else {
-      setConvertedAmount(0); // fallback
+      setConvertedAmount(0); 
     }
   };
   return (
