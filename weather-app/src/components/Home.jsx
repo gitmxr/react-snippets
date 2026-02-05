@@ -1,3 +1,44 @@
+// import React from 'react';
+
+
+// const Weatherform = () => {
+//   return (
+//     <div>       
+//         <h1>Weather App</h1>
+//         <input
+//             type="text"
+//             placeholder="Enter the City Name.."
+//         />
+//         <br />
+//         <br />  
+//         <button>
+//             See City Weather
+//         </button>
+//         <br />
+//         <br />
+//     </div>
+//     );
+// };
+// export default Weatherform;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React, { useState } from 'react';
 import {getCurrentWeather} from '../api/weatherApi'
 
@@ -60,3 +101,7 @@ export const Weatherform = () => {
     </div>
   );
 };
+
+
+
+
